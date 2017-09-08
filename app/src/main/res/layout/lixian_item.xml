@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/g" />
+<TextView
+    android:textSize="18sp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="离线下载"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/xiazai"
+    android:layout_marginRight="10dp"
+    android:layout_centerVertical="true"
+    android:layout_alignParentRight="true"
+    android:text="下载"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"
+        android:text="我的频道"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
